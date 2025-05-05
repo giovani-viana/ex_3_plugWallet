@@ -28,6 +28,7 @@ function App() {
             <img src={p.image} alt={p.title} className="imagem" />
             <h2 className="card-titulo">{p.title}</h2>
             <p className="descricao">{p.description}</p>
+            <p className="preco">{p.price} ICPSC</p>
             <button className="botao">Comprar</button>
           </div>
         ))}
